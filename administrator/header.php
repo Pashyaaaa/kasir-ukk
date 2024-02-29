@@ -14,7 +14,7 @@ if($_SESSION['level'] != '1'){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman Administrator</title>
-    <link rel="stylesheet" href="../assets/bootstrap-5.3.2/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="../assets/login.png" type="image/x-icon">
 </head>
 
