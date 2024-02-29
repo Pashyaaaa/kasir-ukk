@@ -120,7 +120,8 @@ include "../koneksi.php";
                     <div class="row">
                         <div class="col-sm-10">
                             <div class="form-group">
-                                <input type="safcsidden" name="pelanggan_id" value="<?= $d['pelanggan_id'] ?>">
+                                <input type="text" name="total_harga" value="<?= $sum; ?>">
+                                <input type="hidden" name="pelanggan_id" value="<?= $d['pelanggan_id'] ?>">
                                 <input type="hidden" name="penjualan_id" value="<?= $d['penjualan_id'] ?>">
                             </div>
                         </div>
